@@ -1,0 +1,117 @@
+public class lecture3_HW {
+
+    public static void main(String[] args) {
+
+        // 1.
+        int a10 =200345;
+        System.out.println(a10);
+        System.out.println(1*200000+1*300+1*45);
+        
+        System.out.printf(Locale.US, "%d",a10);
+        System.out.println();
+
+        // 2.
+        int b = 637;
+        int d = 0x27d;
+        System.out.println("(10->16 и 16->10)");
+        System.out.println(Integer.toHexString(b));
+        System.out.println("Result 637 (10->16) = " + d);
+
+        System.out.println("(10->16)");
+        System.out.println();
+        System.out.println(637/16);
+        System.out.println(637%16);
+        System.out.println();
+
+        System.out.println(39/16);
+        System.out.println(39%16);
+        System.out.println();
+
+        System.out.println(2/16);
+        System.out.println(2%16);
+        System.out.println();
+
+        System.out.println("Result 637 (10->16) = " + d);
+
+        // 3.
+        int c10 = 637;
+        System.out.println("(10->2)");
+        System.out.println();
+        System.out.println(Integer.toBinaryString(c10));
+        System.out.println();
+        System.out.println(637/2);
+        System.out.println(637%2);
+        System.out.println();
+
+        System.out.println(318/2);
+        System.out.println(318%2);
+        System.out.println();
+
+        System.out.println(159/2);
+        System.out.println(159%2);
+        System.out.println();
+
+        System.out.println(79/2);
+        System.out.println(79%2);
+        System.out.println();
+
+        System.out.println(39/2);
+        System.out.println(39%2);
+        System.out.println();
+
+        System.out.println(19/2);
+        System.out.println(19%2);
+        System.out.println();
+
+        System.out.println(9/2);
+        System.out.println(9%2);
+        System.out.println();
+
+        System.out.println(4/2);
+        System.out.println(4%2);
+        System.out.println();
+
+        System.out.println(2/2);
+        System.out.println(2%2);
+        System.out.println();
+
+        System.out.println(1/2);
+        System.out.println(1%2);
+        System.out.println();
+
+        int c2 = 0b1001111101;
+        System.out.println("Result 637 (10->2) = " + c2);
+
+        // 4.
+        int d2 = 0b11100111;
+        System.out.println(Integer.toString(d2));
+
+        // 5.
+        int h10 = 637;
+        System.out.println("10->3");
+        System.out.println();
+        System.out.println(637/3);
+        System.out.println(637%3);
+        System.out.println();
+
+        System.out.println(212/3);
+        System.out.println(212%3);
+        System.out.println();
+
+        System.out.println(70/3);
+        System.out.println(70%3);
+        System.out.println();
+
+        System.out.println(23/3);
+        System.out.println(23%3);
+        System.out.println();
+
+        System.out.println(7/3);
+        System.out.println(7%3);
+        System.out.println();
+
+        System.out.println(2/3);
+        System.out.println(2%3);
+        System.out.println();
+    }
+}
