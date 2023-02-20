@@ -9,10 +9,10 @@ public class Box {
         width = 5;
         height = 6;
         depth = 7;
-        V =0;
+       
 
         System.out.println(V=width*height*depth);
-        System.out.println("V: "+V+" cm3");
+        System.out.println("V0: "+V+" cm3");
 
 
     }
@@ -20,10 +20,10 @@ public class Box {
         this.width = width;
         height = 23;
         depth = 40;
-        V=0;
+        
 
         System.out.println(V=width*height*depth);
-        System.out.println("V: "+V+" cm3");
+        System.out.println("V1: "+V+" cm3");
 
     }
 
@@ -33,7 +33,7 @@ public class Box {
         depth = 33;
 
         System.out.println(V=width*height*depth);
-        System.out.println("V: "+V+" cm3");
+        System.out.println("V2: "+V+" cm3");
 
     }
 
@@ -43,7 +43,7 @@ public class Box {
         this.depth = depth;
 
         System.out.println(V=width*height*depth);
-        System.out.println("V: "+V+" cm3");
+        System.out.println("V3: "+V+" cm3");
     }
 
 }
