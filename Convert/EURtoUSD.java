@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class EURtoUSD {
     public static void main(String[] args) {
-        double r = 1212.0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your digit: ");
         int enter = scanner.nextInt();
